@@ -15,7 +15,7 @@ class Post
   end 
   
   def title 
-    puts @title 
+    puts title 
   end 
   
   def author_name 
