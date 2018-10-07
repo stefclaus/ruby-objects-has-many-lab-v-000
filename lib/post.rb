@@ -6,7 +6,7 @@ class Post
   def initialize(title)
     @title = title  
     @posts = []
-    
+    @@all << self 
   end 
   
   def self.all
