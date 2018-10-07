@@ -3,7 +3,7 @@ class Post
   
   @@all = []
   
-  def initialize(title, author)
+  def initialize(title)
     @title = title  
     @posts = []
     @@all << self 
@@ -15,7 +15,7 @@ class Post
   end 
   
   def title 
-    puts title 
+    puts @title 
   end 
   
   def author_name 
