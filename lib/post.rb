@@ -7,6 +7,7 @@ class Post
     @title = title  
     @posts = []
     @@all << self 
+    @author = author 
   end 
   
   def self.all
@@ -14,7 +15,10 @@ class Post
   end 
   
   def title 
-    
+    puts @title 
   end 
   
+  def author_name 
+  end 
+
 end 
