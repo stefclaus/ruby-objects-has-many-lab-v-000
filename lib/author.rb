@@ -9,4 +9,9 @@ class Author
     name.post = self
   end 
   
+  def add_post_by_title
+  end 
+  
+  def 
+
 end 
