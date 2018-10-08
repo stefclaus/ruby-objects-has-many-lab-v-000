@@ -14,7 +14,7 @@ class Post
   end 
   
   def title 
-    puts @title 
+    self.
   end 
   
   def author_name 
