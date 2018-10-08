@@ -6,7 +6,6 @@ class Author
   def initialize
     @name = name 
     @posts = []
-    
   end 
 
   def add_post
