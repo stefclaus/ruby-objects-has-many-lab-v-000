@@ -14,7 +14,7 @@ class Post
   end 
   
   def title 
-    self.
+    
   end 
   
   def author_name 
